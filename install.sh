@@ -89,6 +89,8 @@ chmod +x ~/.config/splash/launch-hyprland.sh ~/.config/splash/startup.py
 
 cp -r "$SCRIPT_DIR/fastfetch/"* ~/.config/fastfetch
 
+sudo cp -rf "$SCRIPT_DIR/oneshot-player/"* /usr/local/bin
+
 # Create wallpapers directory
 mkdir -p ~/Pictures/Wallpapers
 if [ -d "$SCRIPT_DIR/wallpapers" ]; then
